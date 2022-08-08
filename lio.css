@@ -1,0 +1,500 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+.contaner{
+    margin: 20px auto;
+    width: 1200px;
+
+}
+
+
+.contaner .data-color{
+
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contaner .data-color li{
+width: 20px;
+height: 20px;
+cursor: pointer;
+display: inline-block;
+
+}
+
+.contaner .data-color li:first-child{
+
+background-color: red;    
+}
+
+.contaner .data-color li:nth-child(2){
+    background-color: green;
+}
+
+.contaner .data-color li:nth-child(3){
+    background-color:blue;
+}
+
+.contaner .data-color li:nth-child(4){
+    background-color: black;
+}
+
+.contaner h3{
+    color: #8c44ad;
+}
+
+.contaner .test{
+background-color: #8c44ad;
+padding: 20px;
+color: white;
+font-size: x-large;
+    font-weight: bold;
+
+}
+
+
+
+.serial{
+    text-align: center;
+    background-color: cadetblue;
+    height: 50px;
+}
+
+.genrate{
+    text-align: center;
+    background-color: cadetblue;
+    height: 50px;
+    width: 100%;
+    display: block;
+    margin: 2px;
+
+}
+
+
+
+
+.qws {
+ width: 700px;
+    height: 699px;
+    z-index: 700;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images img{
+    width: 300px;
+    height: 300px;
+}
+
+.switcher{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: darkgray;
+}
+
+
+
+.switcher li{
+padding: 5px 20px;
+cursor: pointer;
+background-color: #8c44ad;
+margin: 10px;
+
+}
+
+
+
+.tosk{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.tasked{
+    width: 70%;
+    padding: 15px;
+    background-color: floralwhite;
+    outline: none;
+}
+
+.taskdiv{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.taskdiv .task{
+    background-color: darkgray;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 5px;
+    text-align: center;
+}
+
+.taskdiv .dell{
+    background-color: gray;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+body > div.tosk > button{
+    padding: 15px;
+    background-color: darkgray;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.game{
+    background-color: #eee;
+    min-height: 100vh;
+
+}
+.game .container{
+margin: auto;
+max-width: 900px;
+}
+.game .name{
+background-color: #8c44ad;
+color: white;
+padding: 20px;
+font-size: 25px;
+text-align: center;
+font-weight: bold;
+
+}
+
+.game .message{
+    background-color: azure;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 6px;
+    text-align: center;
+
+}
+
+.game .message span{
+    font-weight: bold;
+    color: aqua;
+}
+
+.game .message span::before{
+    content: "[";
+}
+
+.game .message span::after{
+    content: "]";
+}
+
+.game .start{
+ font-size: 20px;
+font-weight: bold;
+text-align: center;
+background-color: aqua;
+color: white;
+padding: 20px;
+cursor: pointer;
+
+}
+
+.game .the-world{
+
+
+    text-align: center;
+    font-weight:bold ;
+    font-size: 60px;
+    color: aqua;
+    user-select: none;
+
+
+}
+.game .intx{
+
+    margin: 15px 0;
+    width: 100%;
+    display: block;
+    padding: 15px;
+    border:  1px solid royalblue;
+    font-size: 20px ;
+text-align: center;
+text-transform: capitalize;
+border-radius: 5px;
+caret-color: aqua;
+outline: none;
+
+}
+
+.game .upcoming-words{
+background-color:  rgba(67, 65, 65, 0.58);
+margin: 15px 0;
+padding: 15px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.game .upcoming-words div{
+    background-color: aqua;
+    color: #eee;
+    font-weight: bold;
+
+    margin: 4px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.game .control{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(67, 65, 65, 0.58);
+    padding: 15px;
+
+}
+.game .control span{
+font-weight: bold;
+color: aqua;
+
+}
+
+.finish{
+font-weight: bold;
+font-size: 40px ;
+text-align: center;
+padding: 10px;
+
+}
+
+.finish .good{
+
+color: aqua;
+}
+
+.finish.bad{
+color: red;
+}
+
+
+
+
+
+
+
+
+
+.kk{
+    width: 100%;
+    height: 300vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circule{
+    width: 80%;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cur{
+    width: 200px;
+    height: 200px;
+background-color: #eee;
+border-radius: 50%;
+position: relative;
+}
+
+.cur span{
+    position: relative;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: all 3s;
+    background:     conic-gradient(#880bea 0deg,#ededed 0deg);
+}
+
+
+.circule::after{
+    content: "";
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    border-radius: 50%;
+    background: rgb(118, 116, 116);
+
+}
+
+
+
+
+.filters{
+    background-color: #222;
+    width: 100vh;
+    height: 80vh;
+margin: auto;
+padding: 20px;
+border-radius: 20px;
+display: grid;
+grid-template-columns: 5fr 3fr;
+}
+
+.img{
+    background-color: #880bea;
+}
+
+.filter{
+    background-color: brown;
+}
+
+
+.img{
+display: flex;
+flex-direction: column;
+gap: 50px;
+justify-content: center;
+align-items: center;
+}
+
+.img-box img{
+max-width:98%;
+max-height: 80vh;
+
+}
+
+.upload input{
+    display: none;
+
+}
+
+.upload label{
+    color: #eee;
+    padding: 8px 20px;
+    border: 2px  solid dashed;
+    cursor: pointer;
+}
+/* 
+
+.filter ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */
+
+
+.filter li{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    direction: rtl;
+}
+
+
+.filter li label{
+    color: #eee;
+}
+
+.filter li:last-child{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+.filter ul li a,span{
+    color: #eee;
+    padding: 10px 20px;
+    background-color: darkslategrey;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:650px){
+    .filters{
+        grid-template-columns: 1fr;
+/* background-color: #880bea; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
